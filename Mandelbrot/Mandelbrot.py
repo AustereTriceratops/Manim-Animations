@@ -1,3 +1,7 @@
+'''
+TODO: Clean up code
+'''
+
 from big_ol_pile_of_manim_imports import *
 import numpy as np
 import os
