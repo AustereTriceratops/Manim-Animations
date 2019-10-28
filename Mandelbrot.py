@@ -55,7 +55,7 @@ class Iterations(GraphScene):
 
 
         # ========== SETUP AXES/GRAPH ==============
-        '''self.setup_axes()
+        self.setup_axes()
         xticks = self.x_axis.get_tick_marks()
         yticks = self.y_axis.get_tick_marks()
         xlabels = [TexMobject('-2'), TexMobject('2')]
@@ -91,12 +91,12 @@ class Iterations(GraphScene):
             self.remove(runners[i-1], runner_labels[i-1])
             self.add(runners[i], runner_labels[i])
             self.wait(0.3)
-        self.play(FadeOut(runners[4]), FadeOut(runner_labels[4]))'''
+        self.play(FadeOut(runners[4]), FadeOut(runner_labels[4]))
 
         # ============================================
 
         # ================= WHOLE DOMAIN ORBITS ========
-        '''domain = create_domain(70)
+        domain = create_domain(70)
         dots = [dots_from_domain(domain, 1.5)]
 
         for _ in range(5):
@@ -114,5 +114,5 @@ class Iterations(GraphScene):
         for i in range(2,6):
             self.remove(dots[i-1])
             self.add(dots[i])
-            self.wait(0.7)'''
+            self.wait(0.7)
         # ===============================================
